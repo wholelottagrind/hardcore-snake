@@ -1,0 +1,16 @@
+[package]
+name = "snake"
+version = "0.1.0"
+authors = ["wholelottagrind <kirill.gemb@gmail.com>"]
+edition = "2024"
+
+description = "CLI snake game with procedurally generated mazes, written in Rust."
+repository = "https://github.com/wholelottagrind/hardcore-snake"
+license = "MIT"
+keywords = ["cli", "game", "snake", "terminal", "procedural-generation"]
+
+[dependencies]
+crossterm = "0.29.0"
+rand = "0.9.2"
+serde = { version="1.0.228", features=["derive"] }
+toml = "0.9.8"

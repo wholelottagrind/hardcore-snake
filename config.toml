@@ -1,0 +1,6 @@
+# Example of snake configuration
+width = 50
+height = 25
+pause_time = 80  # pause time between tacts; the less the value is – the faster snake is
+enable_maze = true  # whether to build maze or play on a free board
+maze_freedom = 0.8  # how much of a perfectly build maze should be destroyed for the game to be playable
